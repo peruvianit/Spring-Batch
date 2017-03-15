@@ -1,0 +1,7 @@
+CREATE TABLE `tbl1000_items` (
+  `PRG_ITEM` int(11) NOT NULL,
+  `DESC_ITEM` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`PRG_ITEM`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+commit;
